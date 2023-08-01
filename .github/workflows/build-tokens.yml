@@ -23,7 +23,7 @@ jobs:
         steps:
             - uses: andstor/copycat-action@v3.2.4
               with:
-                  personal_token: ${{ secrets.GH_PAT }}
+                  personal_token: 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
                   src_branch: main
                   src_path: output/.
                   dst_owner: maheshtalada
