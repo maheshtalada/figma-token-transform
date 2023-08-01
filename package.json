@@ -1,0 +1,13 @@
+{
+    "name": "figma-token-transformation",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "build": "node ./build.js",
+        "clean": "rm -rf output"
+    },
+    "dependencies": {
+        "style-dictionary": "^3.8.0"
+    }
+}
