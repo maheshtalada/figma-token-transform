@@ -306,5 +306,9 @@
       "value": "0px",
       "type": "dimension"
     }
+  },
+  "input-text": {
+    "value": "#fff",
+    "type": "color"
   }
 }
