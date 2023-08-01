@@ -26,7 +26,7 @@ jobs:
                   personal_token: ${{ secrets.GH_PAT }}
                   src_branch: main
                   src_path: output/.
-                  dst_owner: nyan-matt
+                  dst_owner: maheshtalada
                   dst_repo_name: ds-token-automation-demo
                   dst_branch: main
                   dst_path: src/css/.
