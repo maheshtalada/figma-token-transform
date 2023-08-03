@@ -310,5 +310,9 @@
   "input-text": {
     "value": "#fff",
     "type": "color"
+  },
+  "input-hover": {
+    "value": "#000",
+    "type": "color"
   }
 }
