@@ -314,5 +314,9 @@
   "input-hover": {
     "value": "#000",
     "type": "color"
+  },
+  "Radius": {
+    "value": 3,
+    "type": "borderRadius"
   }
 }
