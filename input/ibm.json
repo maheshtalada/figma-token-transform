@@ -316,7 +316,11 @@
     "type": "color"
   },
   "Radius": {
-    "value": 3,
+    "value": 20,
     "type": "borderRadius"
+  },
+  "doubleborder": {
+    "value": 4,
+    "type": "borderWidth"
   }
 }
