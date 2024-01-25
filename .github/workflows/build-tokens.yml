@@ -22,7 +22,7 @@ jobs:
         runs-on: ubuntu-latest
         needs: [build_tokens]
         steps:
-            - uses: andstor/copycat-action@v3.2.4
+            - uses: andstor/copycat-action@v3
               with:
                   personal_token: ${{ secrets.GH_PAT }}
                   src_branch: main
