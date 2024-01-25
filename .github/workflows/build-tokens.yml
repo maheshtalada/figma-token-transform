@@ -24,7 +24,7 @@ jobs:
         steps:
             - uses: andstor/copycat-action@v3.2.4
               with:
-                  personal_token: ${{ secrets.GH_PAT }}
+                  personal_token: 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
                   src_branch: main
                   src_path: output/.
                   dst_owner: maheshtalada
