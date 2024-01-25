@@ -7,7 +7,7 @@ jobs:
         steps:
             - uses: actions/checkout@v4
             - name: Setup Node.js environment
-              uses: actions/setup-node@v4
+            - uses: actions/setup-node@v4
             - run: npm install
             # - run: npx token-transformer input/token_ibm.json input/ibm.json IBM --expandTypography=true --expandShadow=true --expandComposition=true --expandBorder=true
             # - run: npx token-transformer input/token_ibm.json input/ibm-pink.json IBM_Pink --expandTypography=true --expandShadow=true --expandComposition=true --expandBorder=true
