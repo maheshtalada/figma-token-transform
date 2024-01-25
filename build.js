@@ -208,7 +208,7 @@ console.log("Build started...");
 
 // PROCESS THE DESIGN TOKENS FOR THE DIFFEREN BRANDS AND PLATFORMS
 
-["ibm", "ibm-pin", "ibm-pink", "ibm-pin_cop"].map(function (theme) {
+["mosaic"].map(function (theme) {
     console.log("\n==============================================");
     console.log(`\nProcessing: [${theme}]`);
 
