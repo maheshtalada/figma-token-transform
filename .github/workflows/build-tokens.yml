@@ -9,11 +9,7 @@ jobs:
             - name: Setup Node.js environment
               uses: actions/setup-node@v4
             - run: npm install
-            # - run: npx token-transformer input/token_ibm.json input/ibm.json IBM --expandTypography=true --expandShadow=true --expandComposition=true --expandBorder=true
-            # - run: npx token-transformer input/token_ibm.json input/ibm-pink.json IBM_Pink --expandTypography=true --expandShadow=true --expandComposition=true --expandBorder=true
-            # - run: npx token-transformer input/token_ibm.json input/ibm-pin_cop.json IBM_Pin_Cop --expandTypography=true --expandShadow=true --expandComposition=true --expandBorder=true
-            # - run: npx token-transformer input/token_ibm.json input/ibm-pin.json IBM_Pin --expandTypography=true --expandShadow=true --expandComposition=true --expandBorder=true
-            - run: npx token-transformer input/mosaic.json input/transform-mosaic.json global,Semantics/Mode 1,Primitives/Mode 1 --expandTypography=true --expandShadow=true --expandComposition=true --expandBorder=true
+            - run: npx token-transformer input/mosaic.json input/transform-mosaic.json global,'Semantics/Mode 1','Primitives/Mode 1' --expandTypography=true --expandShadow=true --expandComposition=true --expandBorder=true
             - run: node build.js
             - uses: stefanzweifel/git-auto-commit-action@v5
               with:
